@@ -10,7 +10,8 @@
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@eds/core": "file:./eds-packages/core-1.0.0.tgz"
   },
   "engines": {
     "node": ">=18"
