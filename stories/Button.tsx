@@ -8,7 +8,7 @@ import './button.css';
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <button
+    <button 
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
       {...props}
@@ -19,7 +19,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
           background-color: ${backgroundColor};
         }
       `}</style>
-    </button>
+    </button >
   );
 };
 

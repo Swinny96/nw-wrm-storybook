@@ -8,10 +8,22 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@eds/core": "file:./eds-packages/core-1.0.0.tgz",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/material-icons": "^5.0.16",
+    "@fontsource/roboto": "^5.0.12",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/x-data-grid-pro": "^7.1.1",
+    "@mui/x-date-pickers-pro": "^7.1.1",
+    "@tanstack/react-query": "^5.29.0",
+    "@tanstack/react-router": "^1.26.16",
+    "axios": "^1.6.8",
     "next": "latest",
+    "notistack": "^3.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@eds/core": "file:./eds-packages/core-1.0.0.tgz"
+    "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
@@ -22,6 +34,7 @@
     "@storybook/addon-interactions": "^8.0.6",
     "@storybook/addon-links": "^8.0.6",
     "@storybook/addon-onboarding": "^8.0.6",
+    "@storybook/addon-themes": "^8.0.6",
     "@storybook/blocks": "^8.0.6",
     "@storybook/nextjs": "^8.0.6",
     "@storybook/react": "^8.0.6",
